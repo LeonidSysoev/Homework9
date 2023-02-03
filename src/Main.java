@@ -27,7 +27,7 @@ public class Main {
 
     }
     public static void task3 () {
-        System.out.println("Задача 2");
+        System.out.println("Задача 3");
         String firstName = " Семён";
         String middleName = " Семёнович";
         String lastName = "Иванов";
