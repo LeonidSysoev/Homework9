@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
 
     public static void task1 () {
@@ -23,6 +24,17 @@ public class Main {
         fullName = lastName + firstName + middleName;
         String fullNameUp = fullName.toUpperCase();
         System.out.println("ФИО сотрудника — " + fullNameUp);
+
+    }
+    public static void task3 () {
+        System.out.println("Задача 3");
+        String firstName = " Семён";
+        String middleName = " Семёнович";
+        String lastName = "Иванов";
+        String fullName;
+        fullName = lastName + firstName + middleName;
+        String fullNameRep = fullName.replace('ё', 'е');
+        System.out.println("ФИО сотрудника — " + fullNameRep);
 
     }
 }
